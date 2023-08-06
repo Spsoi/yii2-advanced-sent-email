@@ -20,8 +20,17 @@ Thumbs.db
 # composer vendor dir
 /vendor
 
+# composer vendor dir
+/databases
+
+# composer vendor dir
+/redis
+
 # composer itself is not needed
 composer.phar
+
+# Игнорируем файл composer.lock
+composer.lock
 
 # Mac DS_Store Files
 .DS_Store
