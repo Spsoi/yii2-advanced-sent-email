@@ -17,10 +17,23 @@ deploying the application in different environments.
 
 Documentation is at [docs/guide/README.md](docs/guide/README.md).
 
+
 [![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
 [![build](https://github.com/yiisoft/yii2-app-advanced/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-advanced/actions?query=workflow%3Abuild)
 
+DIRECTORY STRUCTURE
+-------------------
+
+```
+Техническое задание 
+
+Вам необходимо создать структуру на базе фреймворка Yii2 advanced для управления сущностями "Приложение" (App), "Email-учетная запись" (Mailer), "Языки" (Lang) и "Шаблоны" (Template).
+
+Вам нужно разработать соответствующие модели, при этом основной сущностью будут шаблоны Email-рассылок. Каждый шаблон будет связан с несколькими идентификаторами приложений, одним из языков и одной учетной записью для рассылки электронных писем.
+
+Вам требуется создать тестовый эндпоинт, который предусмотрит отправку писем при, например, успешной регистрации пользователя. Рассмотреть возможные более оптимальные варианты для отправки писем.
+```
 DIRECTORY STRUCTURE
 -------------------
 
