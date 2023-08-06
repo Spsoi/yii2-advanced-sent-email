@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "5c177dc1-f9f8-4e90-9719-5c42b9574f8d",
+		"name": "Yii-project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21307247",
+		"_collection_link": "https://red-equinox-496672.postman.co/workspace/Emailers~15c39ffa-41c7-447e-a0a8-f6324492e50f/collection/21307247-5c177dc1-f9f8-4e90-9719-5c42b9574f8d?action=share&creator=21307247&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "UserRegister",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:21080/backend/user/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "21080",
+					"path": [
+						"backend",
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
